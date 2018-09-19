@@ -1,0 +1,12 @@
+React is a JavaScript library created by Facebook. Also used by Netflix and instagram. It is used to crate Javascript driven dynamic web apps. In that regard, it can be compared to Angular and Vue. 
+
+Redux is a layer on-top of React. It helps with state management of our app that is management of data in the app or UI state of the app. example Menu opened or closed, pop up opened or closed. 
+
+What we learn:
+
+React basics - components, events, templates, props and forms
+
+React Router - setup different routes, route parameters, redirects 
+
+Redux - stores, actions and reducers. 
+ 
