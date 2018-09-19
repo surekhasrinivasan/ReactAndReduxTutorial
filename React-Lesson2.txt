@@ -1,0 +1,13 @@
+How React Works:
+
+We know that React is a JS library and helps us to create websites. How does that it do that:
+
+Main important part of react is Components. To create components in React for different parts of application. For example we have components for NavBar, Search Box, Footer. It is Reacts job to take those components and inject them into DOM so that we see them on the webpage. DOM is Document Object Model. 
+
+React takes over the components and it creates js representation of DOM which is called Virtual DOM. It takes virtual DOM renders to the browser and actually creates the actual DOM so that how we see those components in the browser. Virutal DOM works in the background which has New and Old DOMs. Any changes in the components it updates in the browser.
+
+Components and Templates 
+
+Components look like HTML templates but actually they are JSX that is javascript xml. 
+ they can contain 'state' (data or UI state). they also can contain Javascript for functionality. 
+
