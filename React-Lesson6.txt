@@ -1,5 +1,0 @@
-How to Install React Developer Tool in Chrome browser 
-
-https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
-
-This tool might help in development applications to keep track of state and data of different components. It lets you interact with the components when we are testing the application. 
