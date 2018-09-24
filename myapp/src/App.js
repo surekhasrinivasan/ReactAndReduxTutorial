@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Ninjas from './Ninjas';
 
+//Container components with state made by class not concerned about UI
 class App extends Component {
   state = {
     ninjas : [
