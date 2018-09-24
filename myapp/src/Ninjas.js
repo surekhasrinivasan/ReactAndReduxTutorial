@@ -1,20 +1,34 @@
 import React from 'react';
 
-//UI component without state made by functions concerned about UI 
 const Ninjas = ({ ninjas }) => {
-    //const { ninjas } = props;
-    const ninjaList = ninjas.map(ninja => {
-        return (
-            <div className = 'ninja' key= { ninja.id }>
-                <div>Name: { ninja.name }</div>
-                <div>Age: { ninja.age }</div>
-                <div>Belt: { ninja.belt }</div>
-            </div>
-        )
-    })
+//     const ninjaList = ninjas.map(ninja => {
+//         if (ninja.age > 20) {
+//             return (
+//                 <div className = 'ninja' key= { ninja.id }>
+//                     <div>Name: { ninja.name }</div>
+//                     <div>Age: { ninja.age }</div>
+//                     <div>Belt: { ninja.belt }</div>
+//                 </div>
+//             )
+//         }
+//         else {
+//             return null;
+//         }
+//     })
+    
     return (
         <div className = 'ninja-list'>
-            { ninjaList }            
+            { 
+            ninjas.map(ninja => {
+            return ninja.age > 20 ? (
+                <div className = 'ninja' key= { ninja.id }>
+                    <div>Name: { ninja.name }</div>
+                    <div>Age: { ninja.age }</div>
+                    <div>Belt: { ninja.belt }</div>
+                </div>
+                ) : null;
+            })
+        }            
         </div>
     )
 }
