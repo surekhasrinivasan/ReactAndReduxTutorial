@@ -3,7 +3,7 @@ body{
     transition: all 1s;
 }
 
-form{
+.ninjas form{
     background: green;
     padding: 20px;
 }
